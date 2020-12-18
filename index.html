@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Estilo da Página -->
+  <link rel="stylesheet" href="./style/main.css">
+
+  <!-- Responsividade -->
+  <link rel="stylesheet" href="style/responsive.css">
+  
+  <!-- Owl CSS -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  
+  <title>NETFLIX AULAS DIO CLONE</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo" onclick="informacao(11)">"DIOFLIX/ANDREA"</h2>
+      <nav>
+        <a href="https://digitalinnovation.one/">Início</a>
+        <a href="https://github.com/Amontoya1">Séries</a>
+        <a href="https://www.instagram.com/andreajmontoya3/?hl=pt-br">Filmes</a>
+        <a href="https://www.linkedin.com/in/andrea-montoya-80a0471a8/">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">THE WITCHER</h3>
+        <p class="descricao">O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.</p>
+
+        <div class="botoes">
+          <button class="botao" role="button" onclick="window.open('https://youtu.be/tjujvMkqWe4')">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+          <button class="botao" role="button" onclick="informacao(0)">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÃO
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="carrossel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/pel1.jpg" alt="" onclick="informacao(1)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel2.jpg" alt="" onclick="informacao(2)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel3.jpg" alt="" onclick="informacao(3)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel4.jpg" alt="" onclick="informacao(4)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel5.jpg" alt="" onclick="informacao(5)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel6.jpg" alt="" onclick="informacao(6)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel7.jpg" alt="" onclick="informacao(7)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel8.jpg" alt="" onclick="informacao(8)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel9.jpg" alt="" onclick="informacao(9)">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/pel10.jpg" alt="" onclick="informacao(10)">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
